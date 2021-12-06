@@ -42,24 +42,25 @@
     .webkit {
         max-width: 600px;
         background-color: #fff;
+        margin-bottom: 20px;
     }
 
     .outer {
-        margin: 0 auto;
+        margin: 0 0;
         width: 100%;
         max-width: 600px;
         border-spacing: 0;
         font-family: sans-serif;
         color: #4a4a4a;
-        background-image: url(images/bg2.png);
+        background-color: #d1dde5;
         background-repeat: no-repeat;
         height: 100%;
         background-size: cover;
     }
 
     .three-columns {
-        
-        
+
+
         text-align: center;
         font-size: 0;
         padding-top: 20px;
@@ -70,15 +71,41 @@
         width: 100%;
         padding: 12px;
 
-        display: inline-block;
+
         vertical-align: top;
     }
-
-
 
     .three-columns .content {
         font-size: 15px;
         line-height: 20px;
+
+
+
+
+
+    }
+
+    @media screen and (max-width: 600px) {
+
+        .wrapper {
+            padding-bottom: 0px;
+        }
+
+        .webkit {
+
+            margin-bottom: 0px;
+            margin: 0;
+        }
+
+        .logo img {
+            width: 250px;
+        }
+
+
+
+
+
+
 
     }
 </style>
@@ -90,12 +117,12 @@
             <table class="outer" valign="center">
                 <tr>
                     <td>
-                        <table width="100%" style="border-spacing: 0; margin-top:5px;">
+                        <table width="100%" style="border-spacing: 0;  padding:10px;">
+                            <!--======================header========================-->
+
                             <tr>
-                          
-                            <tr>
-                                <td style=" text-align: center; padding:20px">
-                                    <div> <img src="logo.png" alt="" srcset="" width="400px"></div>
+                                <td class="logo" style=" text-align: center; padding-top:5px">
+                                    <div> <img src="logo.png" alt="" srcset="" width="350px"></div>
 
                                 </td>
 
@@ -110,12 +137,15 @@
 
 
 
-                      
+
 
 
                     </td>
 
                 </tr>
+
+                <!--======================Message========================-->
+
 
                 <tr>
                     <td>
@@ -123,79 +153,82 @@
                             <tr>
 
                                 <td class="three-columns">
-                                    <div style="background-color: #fff;  box-shadow: 3px 3px 9px #d4d4d4; margin-left:20px; margin-right:20px">
+                                    <div
+                                        style="background-color: #fff;   box-shadow: 3px 3px 9px #d4d4d4; margin-left:20px; margin-right:20px">
 
-                                        
-                                    <table class="column">
-                                        <tr>
-                                            <td>
 
-                                                <table class="content">
-                                                    <tr>
-                                                        <img style=" top:-50px;" src="images/checked.png" alt=""
-                                                            height="50" width="50">
-                                                        <td>
+                                        <table class="column">
+                                            <tr>
+                                                <td>
+
+                                                    <table class="content">
+                                                        <tr>
+                                                            <img style=" padding-top:10px" src="images/checked.png"
+                                                                alt="" height="50" width="50">
+                                                            <td>
+
+                                                                <p
+                                                                    style="font-size: 14px; ;font-family: 'Montserrat', sans-serif;">
+                                                                    Hi <span
+                                                                        style="font-size: 15px; font-weight:500; color:#1c203a">Mike</span>
+                                                                </p>
+                                                                <p style="font-family: 'Montserrat', sans-serif; line-height: 1.6;
+                                                            padding-left:30px; padding-right:30px; padding-bottom:10px;
+                                                           font-size:14px;"> <span style="color: #ff9900; 
                                                             
-                                                            <p
-                                                                style="font-size: 20px; font-family: 'Montserrat', sans-serif;">
-                                                                Hi <span
-                                                                    style="font-size: 22px; color:#1c203a">Mike</span>
-                                                            </p>
-                                                            <p style="font-family: 'Montserrat', sans-serif;
-                                                           font-size:20px;"> <span style="color: #ff9900;
-                                                            
-                                                             font-size:25px;font-weight:500; ">congratulation</span>
-                                                                on your new account at Recruitmently</p>
-                                                        </td>
+                                                             font-size:15px;font-weight:600; ">Congratulation</span>
+                                                                    on your new account at Recruitmently Lorem ipsum
+                                                                    dolor </p>
+                                                            </td>
 
 
-                                                    </tr>
-
-                                                    <td>
-                                                        <button
-                                                        style="margin-bottom:10px; padding:10px; width:100%; border: .5px solid #ff9900;
-                                                        background-color: white;">
-                                                        <a href=""
-                                                            style=" text-decoration:none;font-family: 'Montserrat', sans-serif; color:#ff9900; font-size:20px; font-weight:500">please Click here to complate your Profile</a>
-                                                    </button>
-                                                    </td>
-                                                    <tr>
-                                                        <td style="padding: 0px;">
+                                                        </tr>
 
 
-                                                            <button
-                                                                style="background-color: #ff9900; padding:25px;
-                                                            width:55%; border:none; box-shadow: 3px 3px 9px #d4d4d4; margin-bottom:20px">
-                                                                <a href=""
-                                                                    style="text-decoration: none; font-family: 'Montserrat', sans-serif; color:#fff; font-size:20px; font-weight:500">Verify
-                                                                    Account</a>
-                                                            </button>
+                                                        <tr>
+                                                            <td>
 
-                                                           
-
-                                                            <p> <span
-                                                                    style="font-size:22px; font-family: 'Montserrat', sans-serif; font-weight:600;  ">
-                                                                    Thanks and Regards,</span>
-
-                                                                <br>
-                                                                <a href=""
-                                                                    style="text-decoration: none;  font-size:20px ;font-family: 'Montserrat', sans-serif;color:#1c203a ; margin-right:5px">Recruitmently</a>
-                                                                <span
-                                                                    style="font-size:16px ;font-family: 'Montserrat', sans-serif;">Support
-                                                                    Team</span>
-                                                            </p>
-
-                                                        </td>
-
-                                                    </tr>
+                                                                <button style="margin-bottom:10px; padding:7px; width:80%; border: .9px solid #f8ead4;
+                                                            background-color: white;">
+                                                                    <a href=""
+                                                                        style=" text-decoration:none; line-height: 1.6; font-family: 'Montserrat', sans-serif; color:#ff9900; font-size:12px; font-weight:600">please
+                                                                        Click here to complate your Profile</a>
+                                                                </button>
 
 
-                                                </table>
+                                                                <button
+                                                                    style="background-color: #ff9900; padding:22px;
+                                                            width:55%; border:none; box-shadow: 3px 3px 9px #d4d4d4; margin-top:20px;margin-bottom:20px">
+                                                                    <a href=""
+                                                                        style="text-decoration: none; font-family: 'Montserrat', sans-serif; color:#fff; font-size:16px; font-weight:600">Verify
+                                                                        Account</a>
+                                                                </button>
 
-                                            </td>
 
-                                        </tr>
-                                    </table>
+
+                                                                <p> <span
+                                                                        style="font-size:15px; font-family: 'Montserrat', sans-serif; font-weight:600; line-height: 1.6; ">
+                                                                        Thanks and Regards,</span>
+
+                                                                    <br>
+                                                                    <a href=""
+                                                                        style="text-decoration: none; line-height: 1.6; font-size:14px ;font-family: 'Montserrat', sans-serif;color:#1c203a ; margin-right:5px">Recruitmently</a>
+                                                                    <span
+                                                                        style="font-size:14px ; line-height: 1.6; font-family: 'Montserrat', sans-serif;">Support
+                                                                        Team</span>
+                                                                </p>
+
+                                                            </td>
+
+                                                        </tr>
+
+
+                                                    </table>
+
+                                                </td>
+
+                                            </tr>
+                                        </table>
                                     </div>
 
 
@@ -209,109 +242,109 @@
                     </td>
                 </tr>
 
-
-                
-
-
-                <tr >
-                    <td  style=" background:rgba(196, 207, 214, 0.3)" >
-                    <table width="100%"  style="border-spacing: 0;">
-
-                        <tr>
-
-
-
-                         
+                <!--======================contact========================-->
 
 
 
 
-
-                            <td style="text-align:center;">
-
-
-
-                                <p
-                                    style="font-size: 16px; padding:5px; font-family: 'Montserrat', sans-serif; margin-bottom:3px; margin-top:50px;">
-                                    <span style="font-size: 22px;"> 143/lake circus (Abed Dhali Road),<br>
-                                        Dhaka 1205 Bangladesh</span>
-
-                                </p>
-
-                                <p
-                                    style="font-size: 20px; margin-top:3px;  padding:5px; font-family: 'Montserrat', sans-serif; margin-bottom:3px">
-                                    <a style=" text-decoration:none" href="">info@Recruitmently.com</a> </p>
-                                <p style="padding:0px;"> <a
-                                        style="text-decoration: none; font-size:22px ; font-family: 'Montserrat',   sans-serif;"
-                                        href="">+1347 706 1532</a> </p>
-
-
-                                <p style="padding-top: 20px; bottom:20px"><a
-                                        style=" text-decoration:none;  font-size:22px ; font-weight:500;font-family: 'Montserrat',   sans-serif; color: rgb(216, 19, 19);"
-                                        href="">UNSUBSCRIBE</a></p>
-
-
-
-
-
-                            </td>
-
-
-
-                            </td>
-
-                        </tr>
-
-
-                    </table>
-
-                    </td>
-                </tr>
-
-
-
-                
 
 
                 <tr>
-                    <td>
+                    <td style=" background:rgba(196, 207, 214, 0.3)">
                         <table width="100%" style="border-spacing: 0;">
+
                             <tr>
-                                <td style=" padding:20px;text-align:center">
 
-                                   
+                                <td style="text-align:center; padding-top:20px;padding-bottom:20px;">
 
-                                    <a href="#" style="text-decoration: none; margin:5px; padding-bottom:20px"> <img
-                                            src="images/1.png" alt="" >
-                                        <a href="#" style="text-decoration: none; margin:5px; padding-bottom:20px"> <img
-                                                src="images/2.png" alt="" >
-                                            <a href="#" style="text-decoration: none; margin:5px; padding-bottom:20px">
-                                                <img src="images/3.png" alt="" >
-                                                <a href="#"
-                                                    style="text-decoration: none; margin:5px; padding-bottom:20px"> <img
-                                                        src="images/4.png" alt="">
 
-                                                </a>
+
+                                    <p style="font-size: 14px; line-height: 2;  font-family: 'Montserrat', sans-serif;">
+                                        143/lake circus (Abed Dhali Road),<br>
+                                        Dhaka 1205 Bangladesh
+
+                                    </p>
+
+                                    <p style="font-size: 14px;   font-family: 'Montserrat', sans-serif; ">
+                                        <a style=" text-decoration:none" href="">info@Recruitmently.com</a>
+                                    </p>
+                                    <p style="padding:0px;"> <a
+                                            style="text-decoration: none; font-size:14px ; font-family: 'Montserrat',   sans-serif;"
+                                            href="">+1347 706 1532</a> </p>
+
+
+                                    <p style="padding-top: 10px;"><a
+                                            style=" text-decoration:none;  font-size:12px ; font-weight:400;font-family: 'Montserrat',   sans-serif; color: rgb(216, 19, 19);"
+                                            href="">UNSUBSCRIBE</a></p>
+
+
+
+
 
                                 </td>
-                            </tr>
-                        </table>
+
+
 
                     </td>
+
                 </tr>
 
-                <tr>
-                    <td style=" padding:15px;text-align:center ; font-family: 'Montserrat', sans-serif; ">
-                        <footer class="copyright">
-                            <div>
+
+            </table>
+
+            </td>
+            </tr>
+
+            <!--======================social icon========================-->
+
+
+
+
+
+            <tr>
+                <td>
+                    <table width="100%" style="border-spacing: 0;">
+                        <tr>
+                            <td style=" padding-top:35px; padding-bottom:10px;text-align:center; margin-top:10px;">
+
+
+
+                                <a href="#" style="text-decoration: none; margin:7px; padding-bottom:20px"> <img
+                                        src="images/1.png" alt="">
+                                    <a href="#" style="text-decoration: none; margin:7px; padding-bottom:20px"> <img
+                                            src="images/2.png" alt="">
+                                        <a href="#" style="text-decoration: none; margin:7px; padding-bottom:20px">
+                                            <img src="images/3.png" alt="">
+                                            <a href="#" style="text-decoration: none; margin:7px; padding-bottom:20px">
+                                                <img src="images/4.png" alt="">
+
+                                            </a>
+
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+            <!--======================copy&right========================-->
+
+            <tr>
+                <td
+                    style=" padding-top:10px; padding-bottom:25px; text-align:center ;  font-size:14px; font-family: 'Montserrat', sans-serif; ">
+                    <footer class="copyright">
+                        <div>
+                            <p style="padding-left:15px ;padding-right:15px;">
                                 Copyright © 2021 .All rights reserved by <a style="text-decoration: none;"
                                     href="#">Recruitmently</a>.
-                            </div>
-                        </footer>
 
-                    </td>
+                            </p>
 
-                </tr>
+                        </div>
+                    </footer>
+
+                </td>
+
+            </tr>
 
 
 
